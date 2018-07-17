@@ -1,6 +1,6 @@
 # !/bin/bash
 echo "Enter a number whose factorial is to be found"
-read n
+read n #taking input
 num=$n
 fact=1
 
