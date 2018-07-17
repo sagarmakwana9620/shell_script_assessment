@@ -1,7 +1,6 @@
 #!/bin/sh
 echo "Enter two numbers:"
-read num1 num2
-#sum=$(expr "$num1" + "$num2")
+read num1 num2 #taking input numbers
 sum=$((num1 + num2))
 diff=$((num1-num2))
 prod=$((num1*num2))
